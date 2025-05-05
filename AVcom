@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой Блог | Стиль и Успех</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+    }
+    header {
+      background: #000;
+      padding: 60px 20px;
+      text-align: center;
+      color: #fff;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      color: gold;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+      color: #ccc;
+    }
+    .content {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .post-preview {
+      background: #1a1a1a;
+      border-left: 4px solid gold;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .post-preview h2 {
+      margin: 0 0 10px;
+      color: #fff;
+    }
+    .post-preview p {
+      color: #bbb;
+    }
+    .subscribe {
+      background: #111;
+      padding: 40px 20px;
+      text-align: center;
+      border-top: 1px solid #333;
+    }
+    .subscribe input {
+      padding: 10px;
+      width: 250px;
+      border: none;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+    .subscribe button {
+      padding: 10px 20px;
+      background: gold;
+      border: none;
+      border-radius: 4px;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+    .social-links a {
+      color: gold;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Мой Стиль. Моя История.</h1>
+    <p>Блог о роскоши, бизнесе, мотивации и пути к успеху</p>
+  </header>
+
+  <div class="content">
+    <div class="post-preview">
+      <h2>🔥 Последний пост из Telegram</h2>
+      <p>“Успех — это привычка. Делай роскошь частью своей рутины.”</p>
+    </div>
+
+    <div class="post-preview">
+      <h2>🎥 Новое видео на YouTube</h2>
+      <p><a href="https://youtube.com/" style="color:gold;" target="_blank">Смотреть видео</a></p>
+    </div>
+
+    <div class="post-preview">
+      <h2>💼 Мои проекты</h2>
+      <p>Скоро тут появятся ссылки на Boosty, Patreon и другие платформы.</p>
+    </div>
+  </div>
+
+  <div class="subscribe">
+    <h2 style="color: gold;">Подписаться на обновления</h2>
+    <input type="email" placeholder="Введите ваш email" />
+    <button>Подписаться</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Мой Бренд. Все права защищены.</p>
+    <div class="social-links">
+      <a href="https://t.me/твоя_ссылка" target="_blank">Telegram</a> |
+      <a href="https://boosty.to/твоя_ссылка" target="_blank">Boosty</a> |
+      <a href="https://patreon.com/твоя_ссылка" target="_blank">Patreon</a>
+    </div>
+  </footer>
+
+</body>
+</html>
