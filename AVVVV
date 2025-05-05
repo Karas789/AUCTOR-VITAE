@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мой Блог | Роскошь и мотивация</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Добро пожаловать</h1>
+    <p>Место силы, вдохновения и проектов</p>
+    <nav>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#blog">Блог</a></li>
+        <li><a href="#projects">Проекты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Главная</h2>
+    <p>Здесь будет краткое приветствие и информация о сайте.</p>
+  </section>
+
+  <section id="blog">
+    <h2>Блог</h2>
+    <p>Здесь будут мои последние посты.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Проекты</h2>
+    <p>Тут ты можешь найти мои текущие проекты.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Мой бренд</p>
+  </footer>
+</body>
+</html>
